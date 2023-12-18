@@ -1,0 +1,18 @@
+Входные данные: hello world my name is roman roman is
+Результат: 
+hello
+is   
+my   
+name 
+roman
+world
+Входные данные: hello aaaa bbbb cccc dddd eeee f g 
+Результат: 
+aaaa 
+bbbb 
+cccc 
+dddd 
+eeee 
+f    
+g    
+hello
