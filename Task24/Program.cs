@@ -13,7 +13,7 @@ for (int i = 0; i < text.Length; i++)
     {
         count++;
     }
-    if(txt[i] != ' ') 
+    if((txt[i] >= 'a' && txt[i] <= 'z') || (txt[i] >= 'A' && txt[i] <= 'Z')) 
     {
         s[count] = s[count] + txt[i].ToString();
     }

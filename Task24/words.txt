@@ -1,1 +1,92 @@
-hello aaaa bbbb cccc dddd eeee f g 
+What is Process Chain?
+A process chain is a sequence of processes that wait in the background for an event.
+Some of these processes trigger a separate event that can start other processes in turn.
+It provides various connectors that allow alternative and parallel execution of process.
+For example, a retail store receives a customer order, this will trigger a sequence of events like checking material in stockàordering the product from Warehouse order to manufacture the product and so on.
+Process chains provide graphical scheduling & monitoring features to help in automation, visualization & monitoring of tasks / processes.
+Process chains are integrated into portal based BI administration cockpit.
+Process Chains can be thought of as flowcharts which are scheduled to wait in background & triggered for an event by another process.
+Process Chain
+
+Table of Content:
+
+Process Chain involves three main steps
+
+Start Process: It describes when the process will start (immediately, scheduled job, metaprocess, API)
+Connector: It is a linking process, and can choose options of starting next process
+Variant: The object on which we are supposed to execute the process is called as Variant. It is a set of parameters passed to the process like name of the InfoPackage or Info-Objects
+Steps To Create a Process Chain
+RSPC is the whole and sole transaction used for Process Chain Maintenance. In this screen, existing process chains are sorted by “ApplicationComponents”.
+
+There are two views available:
+
+Check View
+Planning View.
+The default mode is Planning View.
+
+Step 1) Creating a Process Chain:
+
+Click the “Create” icon.
+
+Create a Process Chain in SAP
+
+Step 2)
+
+Enter the Technical name of the Process Chain.
+Enter a meaningful description for the Process Chain.
+Create a Process Chain in SAP
+
+Click Check Mark
+
+Step 3) A new window pops-up. Click on “New” icon to create a new “Start Process”.
+
+Create a Process Chain in SAP
+
+Step 4)
+
+Enter the Technical name of the Start Process.
+Enter a meaningful description for the Start Process and click the Enter button.
+Create a Process Chain in SAP
+
+Step 5) The subsequent screen is used to assign time-based or event based trigger for the process chain.
+
+Click on the option “Direct Schedule” to schedule the process chain for a specific time.
+Click on the button “Change Selections” to enter the details for Scheduling the Process chain for execution.
+Create a Process Chain in SAP
+
+Step 6) Steps for Scheduling a Process Chain
+Click on the “Date/Time” button. Specify the Scheduled Start date/time,end date/time.
+To set frequency, click on the check box “Periodic Job”.
+Click the button “PeriodValues”.
+In next screen, select required frequency (Hourly/Daily/Weekly/Monthly/Other Period). Click on Save icons and back button to go back to previous RSPC screen.
+Create a Process Chain in SAP
+
+Click save
+
+Step 7) Add Info Package:
+
+Click on icon for “Process Types” to proceed.
+
+Create a Process Chain in SAP
+
+Step 8) As discussed earlier, data load can be triggered via an InfoPackage or a DTP.
+
+If the dataload is to be done via an InfoPackage, use the Process type “Execute InfoPackage”
+If the dataload is to be done via a DTP, use the Process type “Data Transfer Process”
+Create a Process Chain in SAP
+
+Step 9) A new pop-up window appears. Here you can choose the required InfoPackage.
+
+Create a Process Chain in SAP
+
+Step 10) Connect both the Start Variant and the InfoPackage:
+
+There are 2 ways to do this – Right click on first step. Click on “Connect With” ->”Load Data”
+
+Another way is to select the “Start Variant” and keep the left mouse button pressed. Then move mouse button to the target step. An arrow should follow your movement. Stop pressing the mouse button and new connection is created. From the start process to every second step there is a black line.
+
+Create a Process Chain in SAP
+
+The Process chain appears as below after a Connection between the Start variant and Infopackage is created.
+
+Create a Process Chain in SAP

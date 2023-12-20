@@ -12,3 +12,4 @@ C:\Users\РомаиЛиля\Desktop\C#Task24\Task24\obj\Debug\net8.0\refint\Task
 C:\Users\РомаиЛиля\Desktop\C#Task24\Task24\obj\Debug\net8.0\Task24.pdb
 C:\Users\РомаиЛиля\Desktop\C#Task24\Task24\obj\Debug\net8.0\Task24.genruntimeconfig.cache
 C:\Users\РомаиЛиля\Desktop\C#Task24\Task24\obj\Debug\net8.0\ref\Task24.dll
+C:\Users\РомаиЛиля\Desktop\C#Task24\Task24\obj\Debug\net8.0\Task24.sourcelink.json
